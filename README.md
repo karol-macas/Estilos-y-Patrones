@@ -143,13 +143,13 @@ El patrón MVC ayuda a dividir el código que son para frontend y el backend per
 
 Dentro de esta arquitectura se usa muhco lo que es el la responsabilidad única, que es la parte de modificación ya sea del modelo o la vista no debe llegar a afectar a otras partes del código, como por ejemplo si se llega hacer una modificación en la base de datos que en este caso es el Modelo, esto no le afectara a la parte de la Vista ya que no cada patrón debe tener una responsabilidad. 
 
-![image.png](../Estilos-y-Patrones/img/image.png)
+![image.png](./img/image.png)
 
 ## Repository
 
 El patrón repository es un patrón de diseño para ubicar el acceso a datos en la capa externa de la aplicación y así mantener el dominio agnóstico a sus fuentes de datos (y sobre todo a su implementación).
 
-![image.png](../Estilos-y-Patrones/img/image%201.png)
+![image.png](./img/image%201.png)
 
 Ventajas: 
 
@@ -170,7 +170,7 @@ Desventajas:
 
 El patrón Event Sourcing define un enfoque para controlar las operaciones basado en una secuencia de eventos, cada uno de los cuales se registra en un almacén de solo anexar. El código de la aplicación envía una serie de eventos que imperativamente describen cada acción que se ha producido en los datos del almacén de eventos, donde se conservan. Cada evento representa un conjunto de cambios en los datos (como `AddedItemToOrder`).
 
-![image.png](../Estilos-y-Patrones/img/image%202.png)
+![image.png](./img/image%202.png)
 
 Ventajas: 
 
@@ -419,7 +419,7 @@ public class Main {
 
 Resultado: 
 
-![image.png](../Estilos-y-Patrones/img/image%203.png)
+![image.png](./img/image%203.png)
 
 ## Facade
 
@@ -527,7 +527,7 @@ public class Main {
 
 Resultado: 
 
-![image.png](../Estilos-y-Patrones/img/image%204.png)
+![image.png](./img/image%204.png)
 
 # Patrones de Comportamiento
 
@@ -633,7 +633,7 @@ public class Main {
 
 Salida: 
 
-![image.png](../Estilos-y-Patrones/img/image%205.png)
+![image.png](./img/image%205.png)
 
 ## Observer
 
@@ -711,7 +711,7 @@ weatherData.setTemperature(20);
 
 Salida: 
 
-![image.png](../Estilos-y-Patrones/img/image%206.png)
+![image.png](./img/image%206.png)
 
 ## Strategy
 
